@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> index.html </title>
+	</head>
+	<body bgcolor = "gray">
+		<h1 bgcolor = "purple">This is a list of my FAVORITE places to travel</h1>
+		<ul>
+			<li><a href="italy.html"> ITALY </a></li>
+			<li><a href="france.html"> FRANCE </li>
+			<li><a href="mediterranean.html"> MEDITERRANEAN SEA </li>			
+			<li><a href="scotland.html"> SCOTLAND </li>
+			<li><a href="belgium.html"> BELGIUM </li>
+			
+		</ul>
+		
+		<img src="worldmap.png" alt="worldmap" usemap="#worldmap" border="3" width="865" height="794"/>
+		<map name="world_map">
+		<area shape="rect" coords="510,540,590,590" alt="italy" a href="italy.html">
+		<area shape="rect" coords="280,305,350,360" alt="france" a href="france.html">
+		<area shape="rect" coords="160,60,210,90" alt="scotland" a href="scotland.html>
+		<area shape="rect" coords="340,240,400,290" alt="belgium" a href="belgium.html">
+		<area shape="rect" coords="640,750,710,790" alt="sea" a href="mediterranean.html">
+		</map>
+
+
+
+</html>
