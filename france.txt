@@ -19,7 +19,7 @@
 		<p class = "centerImage"><img src="france1.jpg" alt="france1"  width="128" height="128"><br>
 		<img src="france2.jpg" alt="france2"  width="128" height="128"><br>
 		<img src="france3.jpg" alt="france3"  width="128" height="128"><br>
-		<a href="hm1.html">
+		<a href="index.html">
 		<img src="home.jpg" alt="home_page" widht="100" height="100"/></a></p>	
 		
 

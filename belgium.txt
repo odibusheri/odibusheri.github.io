@@ -20,7 +20,7 @@
 		<p class="centerImage"><img src="belgium1.jpg" alt="belgium1"  width="300" height="300"/><br>
 		<img src="belgium2.jpg" alt="belgium2"  width="300" height="300"/><br>
 		<img src="belgium3.jpg" alt="belgium3"  width="300" height="300"/><br>
-		<a href="hm1.html">
+		<a href="index.html">
 		<img src="home.jpg" alt="home_page" widht="100" height="100"/></a></p>
 		
 
