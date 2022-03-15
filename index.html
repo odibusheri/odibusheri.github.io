@@ -1,40 +1,53 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title> index.html </title>
-		<style>
-			ul {
- 				 list-style-type: none;
- 				 padding: 0;
- 				 border: 1px solid #ddd;
-				}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Matching Game</title>
+    <meta name="description" content="">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Memory Game</h1>
+        </header>
+        <section class="score-panel">
+            <div class="timer">
+                <span class="min">00</span>:<span class="sec">00</span>
+            </div>
 
-			ul li {
-  				padding: 8px 16px;
-  				border-bottom: 1px solid #ddd;
-			}
+            <div class="restart">
+        		<i class="fa fa-repeat"></i>
+        	</div>
+        </section>
+        <section id="headerSection" class="row">
+            <div id="player1Div" class="col-md-4">
+                <p id="player1P">player 1</p><span id="player1Score">&nbsp;</span> 
+            </div>	
+            <div id="player2Div" class="col-md-4 col-md-offset-4">
+                <p id="player2P">player 2</p>
+                <span id="player2Score">&nbsp;</span> 
+            </div>
+        </section>
+        <ul class="deck">
+        </ul>
 
-		</style>
-	</head>
-	<body bgcolor = "gray">
-		<h1 bgcolor = "purple">This is a list of my FAVORITE places to travel</h1>
-		<ul>
-			<li><a href="italy.html"> ITALY </a></li>
-			<li><a href="france.html"> FRANCE</a> </li>
-			<li><a href="mediterranean.html"> MEDITERRANEAN SEA </a></li>			
-			<li><a href="scotland.html"> SCOTLAND</a> </li>
-			<li><a href="belgium.html"> BELGIUM </a></li>
-			
-		</ul>
-		
-		<img src="worldmap.png" alt="worldmap" usemap="#worldmap" width="865" height="794"/>
-		<map name="worldmap">
-		<area shape="rect" coords="510,540,590,590" alt="italy" a href="italy.html">
-		<area shape="rect" coords="280,305,350,360" alt="france" a href="france.html">
-		<area shape="rect" coords="160,60,210,90" alt="scotland" a href="scotland.html">
-		<area shape="rect" coords="340,240,400,290" alt="belgium" a href="belgium.html">
-		<area shape="rect" coords="640,750,710,790" alt="sea" a href="mediterranean.html">
-		</map>
-
-		
+        <section class="final-score modal">
+            <span class="controls">
+                <span class="play-again">Play again</span>
+                <i class="fa fa-times close"></i>
+            </span>
+            <h1>Score</h1>
+            <p class="comment"></p>
+            <p>You matched all cards in <span id="total-time">0</span>.</p>
+        </section>
+        <div class="backdrop"></div>
+        <footer>
+            <p><span class="left">Made by <a href="http://www.renishachristie.com" target="_blank">Renisha Christie</a>. View on <a href="https://github.com/crisner/memory-game" target="_blank">Github.</a></span><span class="right"><a href="https://github.com/crisner/memory-game#credits" target="_blank">Credits</a></span></p>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.js"></script>
+    <script src="js/app.js"></script>
+</body>
 </html>
